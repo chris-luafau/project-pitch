@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>In-class Assignment</title>
+</head>
+
+<body class="container">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <form data-team-form="form">
+        <h4>Team members</h4>
+        <fieldset class="form-group">
+          <label for="member-1">Member 1: </label>
+          <input id="member-1" type="text" name="mem1" value="Chris Luafau">
+          <label for="member-2">Member 2: </label>
+          <input id="member-2" type="text" name="mem2" value="Chloe Ho"> <br>
+          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#collapse1">Optional: Third member</button>
+          <div id="collapse1" class="collapse">
+            Note: Must have instructor approval. <br>
+            <label for="member-3">Member 3: </label>
+            <input id="member-3" type="text" name="mem3" value="">
+          </div>
+        </fieldset>
+        <fieldset class="form-group">
+          <h4>App or Team Name: </h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="name" value="Study Space" checked>
+              App Name: Study Space
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="name" value="team-name">
+              Team Name: None
+            </label>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
